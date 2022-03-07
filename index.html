@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+    
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css" /> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div  class="card" style="overflow-x: scroll;">
+            <div class="card-body">
+                <div>
+                    <div style="height: 500px; overflow: hidden;" data-originalstyle="height: 500px; overflow: hidden;" class="handsontable htRowHeaders htColumnHeaders">
+                        <div class="ht_master handsontable">
+                            <div class="wtHolder" style="position: relative; height: 500px; width: 1750px;">
+                                <div class="wtHider" style="width: 1852px; height: 1600px;">
+                                    <div class="wtSpreader" style="position: relative; top: 0px; left: 0px;">
+                                        <table class="htCore" id="table">
+                                            <colgroup>
+                                                <col class="rowHeader" style="width: 50px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 120px;">
+                                                <col style="width: 120px;">
+                                                <col style="width: 150px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 240px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 120px;">
+                                                <col style="width: 120px;">
+                                                <col style="width: 100px;">
+                                                <col style="width: 95px;">
+                                                
+                                            
+                                            </colgroup>
+                                            <thead>
+                                            <tr>
+                                                <th class="" style="height: 25px;">
+                                                    <div class="relative">
+                                                        <span class="colHeader cornerHeader">&nbsp</span>
+                                                    </div>
+                                                </th>
+                                                <th class="">
+                                                    <div class="relative">
+                                                        <span class="colHeader">MC CODE</span>
+                                                    </div>
+                                                </th>
+                                                <th class=""
+                                                ><div class="relative">
+                                                    <span class="colHeader">SAM PCS TOT</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">PROD PCS TOT</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">STYLE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">SIZE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">COLOR</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">RUNTIME</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">NO ORDERS</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">SAMPLING</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">CHANGE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">MAINTENANCE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">NO MANPOWER</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">TOTAL</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">REMARKS</span>
+                                                </div>
+                                            </th>
+                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr id="row_id" class="myClass"> 
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1111</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed" align="center"><input type="text"  style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                            <td class="htDimmed" align="center"><input type="text" style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                            <td class="htDimmed" align="center"><input type="text" style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                            <td class="htDimmed" align="center"><input type="text" style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                            <td class="htDimmed" align="center"><input type="text" style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                            <td class="htDimmed" align="center"><input type="text" style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed" align="center"><input type="text" style="width: 70px; border-width: 0.01em; border-radius: 5%;"></td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">5000000000000000000000000000000000</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="rowHeader">1</span>
+                                                </div>
+                                            </th>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1T</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">7</td>
+                                            <td class="htDimmed">50</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                            <td class="htDimmed">1</td>
+                                        
+                                        </tr>
+                                        </tbody> 
+                                        </table>   
+                                        <div class="htBorders">
+                                            <div style="position: absolute; top: 0px; left: 0px;">
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current corner" style="background-color: rgb(75, 137, 255); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                            </div>
+                                            <div style="position: absolute; top: 0px; left: 0px;">
+                                                <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                <div class="wtBorder fill corner" style="background-color: rgb(255, 0, 0); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                </div> 
+                             </div>   
+                        </div>
+                        <div class="ht_clone_top handsontable" style="position: absolute; top: 0px; left: 0px; overflow: visible; width: 1745px; height: 26px;">
+                            <div class="wtHolder" style="position: relative; width: 1745px; height: 29px;">
+                                <div class="wtHider" style="width: 1852px;">
+                                    <div class="wtSpreader" style="position: relative; left: 0px;">
+                                        <table class="htCore">
+                                            <colgroup>
+
+                                            <col class="rowHeader" style="width: 50px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 120px;">
+                                            <col style="width: 120px;">
+                                            <col style="width: 150px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 240px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 120px;">
+                                            <col style="width: 120px;">
+                                            <col style="width: 100px;">
+                                            <col style="width: 95px;">
+                                            
+                                       
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th class="" style="height: 25px;">
+                                                    <div class="relative">
+                                                        <span class="colHeader cornerHeader">&nbsp;</span>
+                                                    </div>
+                                                </th>
+                                                <th class="">
+                                                    <div class="relative">
+                                                        <span class="colHeader">MC CODE</span>
+                                                    </div>
+                                                </th>
+                                                <th class=""
+                                                ><div class="relative">
+                                                    <span class="colHeader">SAM PCS TOT</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">PROD PCS TOT</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">STYLE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">SIZE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">COL</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">RUNTIME</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">NO ORDERS</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">SAMPLING</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">CHANGE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">MAINTENANCE</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">NO MANPOWER</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">TOTAL</span>
+                                                </div>
+                                            </th>
+                                            <th class="">
+                                                <div class="relative">
+                                                    <span class="colHeader">REMARKS</span>
+                                                </div>
+                                            </th>
+                                
+                                            </tr>
+                                            </thead>
+                                                
+                                            <tbody>
+                        
+                                            </tbody>
+                                        </table>
+                                        <div class="htBorders">
+                                            <div style="position: absolute; top: 0px; left: 0px;">
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                <div class="wtBorder current corner" style="background-color: rgb(75, 137, 255); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                            </div>
+                                            <div style="position: absolute; top: 0px; left: 0px;">
+                                                <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;">
+                                                </div><div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;">
+                                                </div><div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;">
+                                                </div><div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;">
+                                                </div><div class="wtBorder fill corner" style="background-color: rgb(255, 0, 0); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="ht_clone_bottom handsontable" style="position: absolute; top: 0px; left: 0px; overflow: visible;">
+                            <div class="wtHolder" style="position: relative;">
+                                <div class="wtHider"><div class="wtSpreader" style="position: relative;">
+                                    <table class="htCore">
+                                        <colgroup></colgroup>
+                                        <thead
+                                        ><tr></tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="ht_clone_left handsontable" style="position: absolute; top: 0px; left: 0px; overflow: visible; height: 500px; width: 50px;">
+                            <div class="wtHolder" style="position: relative; height: 500px; width: 53px;">
+                                <div class="wtHider" style="height: 500px;">
+                                    <div class="wtSpreader" style="position: relative; top: 0px;">
+                                        <table class="htCore">
+                                            <colgroup>
+                                                <col class="rowHeader" style="width: 50px;">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th class="" style="height: 25px;">
+                                                        <div class="relative"><span class="colHeader cornerHeader">&nbsp;</span>
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th class="">
+                                                        <div class="relative">
+                                                            <span class="rowHeader">1</span></div>
+                                                        </th>
+                                                    </tr>
+                                                    <tr id="leftrow_id">
+                                                        <th class="">
+                                                            <div class="relative">
+                                                                <span class="rowHeader">1</span></div>
+                                                            </th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="">
+                                                                <div class="relative">
+                                                                    <span class="rowHeader">1</span></div>
+                                                                </th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="">
+                                                                    <div class="relative">
+                                                                        <span class="rowHeader">1</span></div>
+                                                                    </th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th class="">
+                                                                        <div class="relative">
+                                                                            <span class="rowHeader">1</span></div>
+                                                                        </th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="">
+                                                                            <div class="relative">
+                                                                                <span class="rowHeader">1</span></div>
+                                                                            </th>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th class="">
+                                                                                <div class="relative">
+                                                                                    <span class="rowHeader">1</span></div>
+                                                                                </th>
+                                                                            </tr><tr>
+                                                                                <th class="">
+                                                                                    <div class="relative">
+                                                                                        <span class="rowHeader">1</span></div>
+                                                                                    </th>
+                                                                                </tr><tr>
+                                                                                    <th class="">
+                                                                                        <div class="relative">
+                                                                                            <span class="rowHeader">1</span></div>
+                                                                                        </th>
+                                                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                            <div class="htBorders">
+                                                <div style="position: absolute; top: 0px; left: 0px;">
+                                                    <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                    <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                    <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                    <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                                    <div class="wtBorder current corner" style="background-color: rgb(75, 137, 255); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                                </div>
+                                                <div style="position: absolute; top: 0px; left: 0px;">
+                                                    <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                    <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                    <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                    <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                                    <div class="wtBorder fill corner" style="background-color: rgb(255, 0, 0); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="ht_clone_top_left_corner handsontable" style="position: absolute; top: 0px; left: 0px; overflow: visible; height: 26px; width: 50px;">
+                            <div class="wtHolder" style="position: relative;">
+                                 <div class="wtHider"><div class="wtSpreader" style="position: relative;">
+                                    <table class="htCore">
+                                        <colgroup><col class="rowHeader" style="width: 50px;">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th class="" style="height: 25px;">
+                                                    <div class="relative">
+                                                        <span class="colHeader cornerHeader">&nbsp;</span>
+                                                    </div>
+                                                </th>
+                                            </tr>
+                                         </thead>
+                                         <tbody>
+                        
+                                        </tbody>
+                                    </table>
+                                    <div class="htBorders">
+                                        <div style="position: absolute; top: 0px; left: 0px;">
+                                            <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                            <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                            <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                            <div class="wtBorder current" style="background-color: rgb(75, 137, 255); height: 2px; width: 2px; display: none;"></div>
+                                            <div class="wtBorder current corner" style="background-color: rgb(75, 137, 255); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                        </div>
+                                        <div style="position: absolute; top: 0px; left: 0px;">
+                                            <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                            <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                            <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                            <div class="wtBorder fill" style="background-color: rgb(255, 0, 0); height: 1px; width: 1px; display: none;"></div>
+                                            <div class="wtBorder fill corner" style="background-color: rgb(255, 0, 0); height: 6px; width: 6px; border: 1px solid rgb(255, 255, 255); display: none;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+            
+</body>   
+<script>
+    var rows= $('#table tbody tr').length;
+    var len = $('#table tbody tr.myClass').offsetHeight;
+console.log(len, "xxxx")
+// for(let i = 0; i < rows; i++ ) {
+//     if(document.getElementById("row_id").offsetHeight > 21) {
+//         document.getElementById("leftrow_id").offsetHeight = document.getElementById("row_id").offsetHeight 
+//     }
+//     console.log()
+// }
+</script>               
+</html>
+

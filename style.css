@@ -1,0 +1,264 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div {
+    display: block;
+}
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%);
+    box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%);
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card .card-body {
+    padding: 15px 15px 10px 15px;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    width: 1770px;
+}
+.handsontable {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    position: relative;
+}
+.handsontable div, .handsontable input, .handsontable table, .handsontable tbody, .handsontable td, .handsontable textarea, .handsontable th, .handsontable thead {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+
+.ht_clone_bottom, .ht_clone_left, .ht_clone_top, .ht_master {
+    overflow: hidden;
+}
+.handsontable .wtHider {
+    position: relative;
+    width: 0;
+}
+.ht_master .wtHolder {
+    overflow:hidden;
+}
+.handsontable .wtSpreader {
+    position: relative;
+    width: 0;
+    height: auto;
+}
+.handsontable table.htCore {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2px;
+    border-width: 0;
+    table-layout: fixed;
+    width: 0;
+    outline-width: 0;
+    cursor: default;
+    max-width: none;
+    max-height: none;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+colgroup {
+    display: table-column-group;
+}
+.handsontable col, .handsontable col.rowHeader {
+    width: 50px;
+}
+col {
+    display: table-column;
+}
+.handsontable tr {
+    background: #fff;
+    /* height: auto; */
+}
+.ht_master:not(.innerBorderTop):not(.innerBorderBottom) thead tr.lastChild th, .ht_master:not(.innerBorderTop):not(.innerBorderBottom) thead tr:last-child th, .ht_master:not(.innerBorderTop):not(.innerBorderBottom)~.handsontable thead tr.lastChild th, .ht_master:not(.innerBorderTop):not(.innerBorderBottom)~.handsontable thead tr:last-child th {
+    border-bottom-width: 0;
+}
+.handsontable .ht_clone_left thead, .handsontable .ht_master thead, .handsontable .ht_master tr th {
+    visibility: hidden;
+}
+.handsontable tr:first-child td, .handsontable tr:first-child th {
+    border-top: 1px solid #ccc;
+}
+.handsontable.htRowHeaders thead tr th:nth-child(2), .handsontable td:first-of-type, .handsontable th:first-child, .handsontable th:nth-child(2) {
+    border-left: 1px solid #ccc;
+}
+.handsontable thead th {
+    padding: 0;
+}
+.handsontable th {
+    font-weight: 500 !important;
+    background-color: #f0f0f0;
+    color: #222;
+    text-align: center;
+    white-space: nowrap;
+    height: auto;
+}
+
+.handsontable td, .handsontable th {
+    border-top-width: 0;
+    border-left-width: 0;
+    /* height: 40px; */
+    empty-cells: show;
+    line-height: 21px;
+    padding: 0 4px;
+    background-color: #fff;
+    vertical-align: top;
+    overflow: visible;
+    outline-width: 0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+th {
+    display: table-cell;
+    text-align: inherit;
+
+}
+.handsontable span.colHeader {
+    display: inline-block;
+    line-height: 1.1;
+}
+
+
+.handsontable thead th .relative {
+    padding: 2px 4px;
+    height: auto;
+}
+.handsontable .relative {
+    position: relative;
+}
+.handsontable span.colHeader {
+    display: inline-block;
+    line-height: 1.1;
+    visibility: visible;
+}
+.handsontable tbody th.ht__active_highlight, .handsontable thead th.ht__active_highlight {
+    background-color: #8eb0e7;
+    color: #000;
+}
+.handsontable.htRowHeaders thead tr th:nth-child(2), .handsontable td:first-of-type, .handsontable th:first-child, .handsontable th:nth-child(2) {
+    border-left: 1px solid #ccc;
+}
+
+.handsontable .wtBorder.current {
+    z-index: 10;
+}
+.handsontable .wtBorder.corner {
+    font-size: 0;
+    cursor: crosshair;
+}
+.handsontable .wtBorder {
+    position: absolute;
+    font-size: 0;
+}
+.handsontable .wtBorder.fill {
+    z-index: 6;
+}
+.handsontable .wtBorder.area {
+    z-index: 8;
+}
+
+.ht_clone_top {
+    z-index: 160;
+}
+.handsontable .manualColumnresizer {
+    position: absolute;
+    top: 0;
+    cursor: col-resize;
+    z-index: 210;
+    width: 5px;
+    height: 25px;
+}
+.ht_clone_top_left {
+    z-index: 180;
+}
+.ht_clone_top_left_corner {
+    z-index: 180;
+    /* height: 40px; */
+}
+.ht_clone_left {
+    z-index: 120;
+}
+.ht_clone_bottom {
+    z-index: 130;
+}
+.ht_clone_bottom .wtHolder, .ht_clone_left .wtHolder, .ht_clone_top .wtHolder {
+    overflow: hidden;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.ht_master:not(.innerBorderLeft):not(.emptyColumns)~.handsontable:not(.ht_clone_top) thead tr th:first-child, .ht_master:not(.innerBorderLeft):not(.emptyColumns)~.handsontable tbody tr th {
+    border-right-width: 0;
+}
+.handsontable td, .handsontable th, .handsontable th:last-child {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.handsontable th {
+    background-color: #f0f0f0;
+    color: #222;
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.manualColumnResizer {
+    position: absolute;
+    top: 0;
+    cursor: col-resize;
+    z-index: 210;
+    width: 5px;
+    height: 25px;
+}
+.handsontable .manualColumnResizerGuide {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #34a9db;
+    display: none;
+    width: 0;
+    border-right: 1px dashed #777;
+    margin-left: 5px;
+}
+.handsontable .htDimmed {
+    color: rgba(235, 11, 11, 0.603);
+    /* height: 90px; */
+}
+
+
+
